@@ -11,6 +11,11 @@
     --bs: 0 0 10px 5px #00000033;
     --h: linear-gradient(90deg,rgba(34,193,195,1) 10%,rgba(114,51,129,1) 95%);
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .head {
     display: flex;
     background: var(--h);
