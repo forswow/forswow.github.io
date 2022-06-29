@@ -60,3 +60,12 @@ article {
     box-shadow: var(--bs);
     color: var(--t);
 }
+.fl-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(193px,1fr));
+    column-gap: 10px;
+}
+.fl-title {
+    text-align: center;
+    padding: 10px 0;
+}
