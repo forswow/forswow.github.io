@@ -78,10 +78,17 @@ article {
 .fl {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-gap: 10px;
 }
 .fl>.fl-img {
-    text-align: center;
+   text-align: center;
+    border-bottom: 1px solid var(--a);
+    box-shadow: var(--bs);
+    background-color: var(--card);
+}
+.fl-img>img {
+    object-fit: fill;
+    width: 100%;
 }
 .fl-body {
     display: grid;
