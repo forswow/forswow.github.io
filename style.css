@@ -1,3 +1,16 @@
+:root {
+    --btn: #4A90E2;
+    --btnhr: #1e88e5;
+    --card: #3e4042;
+    --f: #211e1f;
+    --c: #242526;
+    --b: #1c1e21;
+    --t: #e4e6eb;
+    --a: #acacac;
+    --hr: #4A90E2;
+    --bs: 0 0 10px 5px #00000033;
+    --h: linear-gradient(90deg,rgba(34,193,195,1) 10%,rgba(114,51,129,1) 95%);
+}
 .head {
     display: flex;
     background: var(--h);
@@ -11,4 +24,26 @@
     width: 100%;
     transform: translateY(0);
     transition: transform .3s ease;
+}
+body {
+    font: 14px sans-serif;
+    color: var(--t);
+    background: var(--b);
+    display: block;
+    height: 100vh;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.main {
+    padding: 10px;
+    display: flex;
+    margin-top: 48px;
+}
+.aside {
+    width: 25%;
+    background-color: var(--b);
+}
+article {
+    width: 75%;
+    padding: 0 10px;
 }
