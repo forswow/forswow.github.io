@@ -61,6 +61,15 @@ article {
     box-shadow: var(--bs);
     color: var(--t);
 }
+.img {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.aside-desc {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
 .fl-body {
     display: grid;
     grid-template-columns: 1fr 3fr;
