@@ -62,7 +62,7 @@ article {
 }
 .fl-body {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(193px,1fr));
+    grid-template-columns: 1fr 3fr;
     column-gap: 10px;
 }
 .fl-title {
