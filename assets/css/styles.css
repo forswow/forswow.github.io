@@ -50,7 +50,7 @@ body {
 }
 article {
     width: 75%;
-    padding: 0 10px;
+    padding-left:10px;
 }
 .box {
     background-color: var(--c);
